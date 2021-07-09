@@ -403,6 +403,9 @@ button:not(:disabled),
 .main-content {
 text-align: center;
 padding-top: 125px;
+min-height: 100%;
+padding: 20px;
+padding-bottom: 50px;
 }
 
 textarea {

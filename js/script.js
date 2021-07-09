@@ -12,6 +12,7 @@ function fetchPics() {
             catsImgElement.classList.add("showcase");
             let catsImg = document.querySelector(".catsImg");
             catsImg.appendChild(catsImgElement);
+            generate_btn.classList.add("footer");
         })
         .catch(console.log)
-};
+    };

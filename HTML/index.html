@@ -16,10 +16,20 @@
   .img {
      justify-content: center;
   }
+
+  .body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: vh;    
+}
   </style>
 
 </head>
 <body class="jumbotron">
+  <!--start navbar-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-brand dark">
       <div class="container-fluid">
         <img class="navbar-brand" src="../images/LogoMakr-6dBdy9.png" width="150" height="57"></img>
@@ -38,12 +48,12 @@
         </div>
       </div>
     </nav>
-
+<!--end navbar-->
     <div class="main-content">
 <h1>Welcome to CatHub, wanna see some cats?</h1>
-<button type="button" class="btn btn-danger btn-grad generate_btn">Yes!</button>
-</div>
 <div class="catsImg"></div>
+<button type="button" class="btn btn-danger btn-grad generate_btn">Yes!</button>
+    </div>
 <script src="../js/script.js"></script>
 </body>
 </html>
