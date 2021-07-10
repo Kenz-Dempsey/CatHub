@@ -406,6 +406,7 @@ padding-top: 125px;
 min-height: 100%;
 padding: 20px;
 padding-bottom: 50px;
+min-height: calc(100vh - 70px);
 }
 
 textarea {
@@ -5150,7 +5151,17 @@ textarea.form-control-lg {
   background-color: #055160;
   border-color: #055160;
 }
-
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  height: 20px;
+  flex-shrink: 0;  
+  margin-top: vh;
+}
 .list-group-item-warning {
   color: #664d03;
   background-color: #fff3cd;

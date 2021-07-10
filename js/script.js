@@ -15,4 +15,4 @@ function fetchPics() {
             generate_btn.classList.add("footer");
         })
         .catch(console.log)
-    };
+    };    
